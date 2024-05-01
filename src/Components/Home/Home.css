@@ -1,0 +1,15 @@
+/* Home.css */
+.home-container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.desktop-banner {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}

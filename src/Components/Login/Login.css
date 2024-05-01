@@ -1,0 +1,93 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4CAF50; /* Set the background color for the entire page */
+    color: #fff; /* Set the text color for the entire page */
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .nav-logo img {
+    width: 60px; /* Adjust the width of your logo */
+  }
+  
+  .nav-logo p {
+    font-size: 14px; /* Adjust the font size of your logo name */
+    font-weight: bold;
+  }
+  
+  .login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px 2px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    font-size: 14px; /* Set input font size */
+  }
+  
+  .login-links {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .login-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .login-links .separator {
+    color: #fff;
+    margin: 0 5px;
+  }
+
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-login-cart button {
+    width: 140px;
+    background-color: #4CAF50; /* Set the background color for the button */
+    color: #fff; /* Set the text color for the button */
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin to the top of the button */
+    border-radius: 10px;
+  }
+
+  .nav-login-cart button:hover {
+    
+    background-color: #fff; /* Set the background color for the button */
+    color: #4CAF50; /* Set the text color for the button */
+    border: 2px solid #4CAF50;
+    font-weight: bold;
+  }
+  
